@@ -15,13 +15,14 @@ function addExcitement (theWordArray) {
     let buildMeUp = ""
 
      // Concatenate the new word onto buildMeUp
-    for (let i = 0; i < theWordArray.length; i++) {
-        
-        if ((i + 1) % 3 === 0) { //makes it divisible by 3
-            buildMeUp =  buildMeUp + theWordArray[i] + "! ";
-        } else buildMeUp = buildMeUp + theWordArray[i] + " ";
+     for (let i = 0; i < theWordArray.length; i++) {
+        if ((i + 1) % 3 === 0) { //condition for if it is divisible by 3
+            buildMeUp = buildMeUp + theWordArray[i] + "! "; // Concatenate new word onto buildMeUp
+            console.log(buildMeUp);
+        } else buildMeUp = buildMeUp + theWordArray[i] + " "; // add space in else statement
+            console.log(buildMeUp);
+        }
         console.log(buildMeUp);
-    }
 }
 
 // Invoke the function and pass in the array
