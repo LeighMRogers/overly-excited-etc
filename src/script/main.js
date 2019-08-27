@@ -21,7 +21,7 @@ function multiples(string, times) {
     }
     multiples("*", 4);
 
-function addExcitement (theWordArray, punctuation, number) {
+addExcitement = (theWordArray, punctuation, number) => {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = ""
