@@ -10,6 +10,7 @@ let sentence = ["The","walrus","danced","through","the","trees","in","the","ligh
     and output the words to the browser console.
 */
 
+//This adds a return of multiple arguments. 
 function multiples(string, times) {
     if(times < 0) 
         return "";
